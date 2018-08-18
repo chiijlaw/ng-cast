@@ -7,7 +7,9 @@ angular.module('video-player')
       };
     },
     bindings: {
-      video: '<'
+      video: '<',
+      currentVideo: '<',
+      searchResults: '<'
     },
     templateUrl: 'src/templates/videoPlayer.html'
   });
